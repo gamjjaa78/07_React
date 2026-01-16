@@ -3,7 +3,7 @@ import "../css/Login.css";
 import { AuthContext } from './AuthContext';
 
 function Login() {
-  const globalState=useContext(AuthContext);
+  const globalState = useContext(AuthContext);
 
   return (
     <div className="login-container">
